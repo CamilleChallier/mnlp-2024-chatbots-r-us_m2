@@ -1,0 +1,14 @@
+"team_name": "Chatbots-R-Us" # Your team name
+"eval_method": ["reward"] # mcqa, reward, rag, compression
+"task_type": "seq2seq" # causal_lm, seq2seq
+"policy_model_path": "wesleymth/chatbots-r-us_flan-t5-large_finetuned_dpo" # Your path to the final checkpoint
+"reference_model_path": "google/flan-t5-large" # The repo id of your pretrained reference model
+"quantized_policy_model_path": "./checkpoints/best_model_quantized/" # Your path to the final quantized checkpoint
+"rag_policy_model_path": "./checkpoints/best_model_rag/" # Your path to the final RAG checkpoint
+"test_data_path": "./datasets/dpo/test/dpo_M1_all_pairs_length-sup-200-char_test.jsonl" # Your path to the test data
+"dpo_model_args": null # Put any model arguments required to load your DPO model below
+"rag_model_args": # Put any model arguments required to load your rag model below
+  "encoder_model_path": "facebook/bart-large"
+  "retriever_model_path": "./checkpoints/rag_retriever"
+  "document_dir": "./data/documents"
+"quantized_model_args": null # Put any model arguments required to load your quantized model below

@@ -1,0 +1,18 @@
+{
+  "team_name": "Chatbots-R-Us",
+  "task_type": "seq2seq",
+  "policy_reward_accuracy": {
+    "eval_loss": 0.7017876505851746,
+    "eval_runtime": 43.7966,
+    "eval_samples_per_second": 53.543,
+    "eval_steps_per_second": 6.713,
+    "eval_rewards/chosen": 2.3665108680725098,
+    "eval_rewards/rejected": 2.047210693359375,
+    "eval_rewards/accuracies": 0.5901360511779785,
+    "eval_rewards/margins": 0.3193000853061676,
+    "eval_logps/rejected": -472.86151123046875,
+    "eval_logps/chosen": -520.4085083007812,
+    "eval_logits/rejected": 0.7178108096122742,
+    "eval_logits/chosen": -3.7741100788116455
+  }
+}

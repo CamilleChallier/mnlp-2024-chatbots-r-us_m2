@@ -1,0 +1,11 @@
+project-code-2024/datasets/shp_eval.json filter=lfs diff=lfs merge=lfs -text
+project-code-2024/datasets/shp_train.json filter=lfs diff=lfs merge=lfs -text
+project-code-2024/datasets/shp_test.json filter=lfs diff=lfs merge=lfs -text
+data_fine_tuning/stem_test_dataset.json filter=lfs diff=lfs merge=lfs -text
+data_fine_tuning/stem_train_dataset.json filter=lfs diff=lfs merge=lfs -text
+data_fine_tuning/stem_val_dataset.json filter=lfs diff=lfs merge=lfs -text
+models/flan-t5-small-epfl-exams/model.safetensors filter=lfs diff=lfs merge=lfs -text
+models/flan-t5-small-epfl-exams/tokenizer.json filter=lfs diff=lfs merge=lfs -text
+project-code-2024/datasets/dpo_shp_train.jsonl filter=lfs diff=lfs merge=lfs -text
+models/flan-t5-small-stem/model.safetensors filter=lfs diff=lfs merge=lfs -text
+models/flan-t5-small-stem/tokenizer.json filter=lfs diff=lfs merge=lfs -text
